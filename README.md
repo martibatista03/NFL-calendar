@@ -14,3 +14,7 @@ For all calendars that satisfy the above constraints, the objective function mus
 Therefore, the formalization of this optimization problem is the following, considering $\phi := r(n/2 − 1) + sn/2$:
 
 ![Captura de 2023-01-24 23-41-07](https://user-images.githubusercontent.com/71564709/214437255-065050a0-c016-4070-9335-9a15a8a6a583.png)
+
+## Use
+
+Once installed the AMPL language, you just have to run the ```calendari.run`` file.`
