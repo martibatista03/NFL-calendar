@@ -11,6 +11,6 @@ For all calendars that satisfy the above constraints, the objective function mus
   <img src="https://user-images.githubusercontent.com/71564709/214436005-e43ffcbe-728e-435a-b4f8-6da31b878918.png" width="600">
 </p>  
   
-Therefore, the formalization of this optimization problem is the following:
+Therefore, the formalization of this optimization problem is the following, considering $\phi := r(n/2 − 1) + sn/2$:
 
-![Captura de 2023-01-24 23-21-04](https://user-images.githubusercontent.com/71564709/214434288-66b929c7-b543-443f-a0d3-eea355397e5f.png)
+![Captura de 2023-01-24 23-41-07](https://user-images.githubusercontent.com/71564709/214437255-065050a0-c016-4070-9335-9a15a8a6a583.png)
