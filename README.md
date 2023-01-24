@@ -17,4 +17,8 @@ Therefore, the formalization of this optimization problem is the following, cons
 
 ## Use
 
-Once installed the AMPL language, you just have to run the ```calendari.run`` file.`
+Once installed the AMPL language, you just have to run the ```calendari.run``` file.
+
+## Authors
+
+Alessandro Valls Pau and Martí Batista Obiols.
