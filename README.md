@@ -8,7 +8,7 @@ no team rests, and all of them play every match day, we will need $r(n/2 − 1) 
 For all calendars that satisfy the above constraints, the objective function must give preference to those where intra-divisional matches are played towards the last days. To achieve this we define the coefficients $c_{ijk}$, which indicate the preference to play the match $(i, j)$ a match day $k$, as it follows:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/71564709/214436005-e43ffcbe-728e-435a-b4f8-6da31b878918.png" width="700">
+  <img src="https://user-images.githubusercontent.com/71564709/214436005-e43ffcbe-728e-435a-b4f8-6da31b878918.png" width="600">
 </p>  
   
 Therefore, the formalization of this optimization problem is the following:
