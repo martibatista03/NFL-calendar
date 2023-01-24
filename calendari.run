@@ -1,0 +1,21 @@
+reset;
+
+model calendari.mod;
+
+data calendari.dat;
+
+option solver cplex;
+
+solve;
+
+print "Funció Objectiu:", total;
+
+for {k in JORNADES} {
+	print "";
+	print "Partits Jornada:" , k;
+	for {i in 1..n} {
+		for {j in (i+1)..n} {
+			if x[k,i,j] = 1 then print "(", i , "," , j , ")";
+		}
+	} 
+}

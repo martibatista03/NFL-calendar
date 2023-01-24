@@ -1,0 +1,9 @@
+
+subject to constriccio_2 {i in 1..((n/2)-1), j in (i+1)..(n/2)}:  #es fixa matriu i columna, i la suma de la columna ha de donar r
+	sum{k in JORNS} x[k,i,j] = r;
+
+subject to constriccio_3 {i in ((n/2)+1)..(n-1), j in (i+1)..n}:  #es fixa matriu i columna, i la suma de la columna ha de donar r
+	sum{k in JORNS} x[k,i,j] = r;
+	
+subject to constriccio_4 {i in 1..(n/2), j in ((n/2)+1)..n}:  #es fixa matriu i columna, i la suma de la columna ha de donar r
+	sum{k in JORNS} x[k,i,j] = s;
